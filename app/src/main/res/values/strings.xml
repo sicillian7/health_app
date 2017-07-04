@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">HealthApp</string>
+    <string name="enter_your_staff_id">Enter your Staff ID</string>
+    <string name="doctor_s_staff_id">Doctor\'s Staff ID</string>
+    <string name="register">Register</string>
+    <string name="enter">Enter</string>
+    <string name="or_register_as_a_new_doctor_here">or Register as a new Doctor here.</string>
+    <string name="enter_new_staff_id">Enter new staff ID:</string>
+    <string name="doctor_s_last_name">Doctor\'s last name</string>
+    <string name="enter_last_name">Enter last name:</string>
+    <string name="doctor_s_name">Doctor\'s name</string>
+    <string name="enter_first_name">Enter first name:</string>
+    <string name="please_fill_out_the_patient_s_report">Please fill out the patient\'s report:</string>
+    <string name="does_the_patient_experiences_often_migraines">Does the patient experiences often migraines?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="patient_s_last_name">Patient\'s last name</string>
+    <string name="patient_s_name">Patient\'s name</string>
+    <string name="is_the_patient_a_male">Is the patient a male?</string>
+    <string name="is_the_patient_at_the_age_below_15">Is the patient at the age below 15?</string>
+    <string name="is_the_patient_using_any_hallucinogenic_drugs">Is the patient using any hallucinogenic drugs?</string>
+    <string name="no_patients_at_this_time_use_the_add_button_to_add_a_new_patient">No patients at this time. Use the Add button to add a new patient</string>
+    <string name="name">Name:</string>
+    <string name="last_name">Last name:</string>
+    <string name="todd_s_syndrome_probability_rate">Todd’s Syndrome probability rate:</string>
+</resources>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/patient_s_name"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
+        <EditText
+            android:id="@+id/et_last_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/patient_s_last_name"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/please_fill_out_the_patient_s_report"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:textSize="18sp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/question1_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/does_the_patient_experiences_often_migraines"
+                android:paddingLeft="10dp"/>
+           <RadioGroup
+               android:id="@+id/question1_radio_group"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_below="@+id/question1_label"
+               android:orientation="horizontal">
+               
+               <RadioButton
+                   android:id="@+id/question1_yes"
+                   android:layout_width="100dp"
+                   android:layout_height="30dp"
+                   android:text="@string/yes"/>
+
+               <RadioButton
+                   android:id="@+id/question1_no"
+                   android:layout_width="100dp"
+                   android:layout_height="30dp"
+                   android:text="@string/no"/>
+           </RadioGroup>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/question2_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/is_the_patient_at_the_age_below_15"
+                android:paddingLeft="10dp"/>
+            <RadioGroup
+                android:id="@+id/question2_radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/question2_label"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/question2_yes"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:text="@string/yes"/>
+
+                <RadioButton
+                    android:id="@+id/question2_no"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:text="@string/no"/>
+            </RadioGroup>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/question3_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/is_the_patient_a_male"
+                android:paddingLeft="10dp"/>
+            <RadioGroup
+                android:id="@+id/question3_radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/question3_label"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/question3_yes"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:text="@string/yes"/>
+
+                <RadioButton
+                    android:id="@+id/question3_no"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:text="@string/no"/>
+            </RadioGroup>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/question4_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/is_the_patient_using_any_hallucinogenic_drugs"
+                android:paddingLeft="10dp"/>
+            <RadioGroup
+                android:id="@+id/question4_radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/question4_label"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/question4_yes"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:text="@string/yes"/>
+
+                <RadioButton
+                    android:id="@+id/question4_no"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:text="@string/no"/>
+            </RadioGroup>
+        </RelativeLayout>
+
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Submit"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:textSize="18sp"
+            android:elevation="2dp"
+            android:background="@color/colorAccent"/>
+    </LinearLayout>
+
+</ScrollView>
